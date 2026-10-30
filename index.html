@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>José Guerra Portfolio</title>
+<meta name="description" content="Chemical Engineer and MSc in AI who builds with agents: a multi-agent operating system, a local model with its own harness, engineering tools that draw the plants, desktop apps and a game.">
+<meta name="author" content="José Manuel Guerra">
+<meta property="og:title" content="José Guerra · Chemical Engineer &amp; MSc in AI">
+<meta property="og:description" content="I design water treatment plants by day and build the agents that draw them: a multi-agent operating system, a local model with its own harness, engineering tools, desktop apps and a game. Every number on the page is measured.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jmguerrav.github.io/portfolio/">
+<meta property="og:site_name" content="José Guerra Portfolio">
+<meta property="og:locale" content="en_IE">
+<meta property="og:locale:alternate" content="es_CL">
+<meta property="og:image" content="https://jmguerrav.github.io/portfolio/assets/og.png">
+<meta property="og:image:secure_url" content="https://jmguerrav.github.io/portfolio/assets/og.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="José Guerra, Chemical Engineer and MSc in AI: lines of Python written, changes logged by agents, nodes in memory, lessons learned.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="José Guerra · Chemical Engineer &amp; MSc in AI">
+<meta name="twitter:description" content="I design water treatment plants by day and build the agents that draw them.">
+<meta name="twitter:image" content="https://jmguerrav.github.io/portfolio/assets/og.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300..700&family=VT323&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add("js"),function(){var t=function(){window.PORTFOLIO_READY||document.documentElement.classList.remove("js")};document.addEventListener("DOMContentLoaded",function(){setTimeout(t,0)}),setTimeout(t,2e4)}(),window.PORTFOLIO={github:"https://github.com/jmguerrav",linkedin:"https://www.linkedin.com/in/joseguerrav",tiktok:"https://www.tiktok.com/@ignitzen",form:""};</script>
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/guard.js"></script>
+<script defer src="assets/js/keysound.js"></script>
+<script defer src="assets/data/brain.js"></script>
+<script defer src="assets/js/brain3d.js"></script>
+<script defer src="assets/data/marine.js"></script>
+<script defer src="assets/data/zeratul.js"></script>
+<script defer src="assets/js/marine3d.js"></script>
+<script defer src="assets/js/sprite.js"></script>
+<script defer src="assets/js/sprites-cards.js"></script>
+<script defer src="assets/js/sprites-office.js"></script>
+<script defer src="assets/js/sprites-eng.js"></script>
+<script defer src="assets/js/sprites-apps.js"></script>
+<script defer src="assets/js/sprites-six.js"></script>
+<script defer src="assets/js/sprites-igni.js"></script>
+<script defer src="assets/js/sprites-extra.js"></script>
+<script defer src="assets/data/concepts.js"></script>
+<script defer src="assets/data/details.js"></script>
+<script defer src="assets/js/i18n.js"></script>
+<script defer src="assets/js/search.js"></script>
+<script defer src="assets/js/fx.js"></script>
+<script defer src="assets/js/main.js"></script>
+<script defer src="assets/js/terminal.js"></script>
+</head>
+<body>
+<div class="app" id="app">
+
+  <header class="bar">
+    <a class="brand" href="#work"><span class="nm">José Guerra</span><span class="crumb" id="crumb">~/portfolio</span></a>
+    <div class="ctl">
+      <div class="tree">
+        <button class="ic map" id="map" type="button" aria-expanded="false" aria-controls="treebar" aria-label="Site map" data-t-aria="aria.map" title="Site map" data-t-title="aria.map" hidden><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 2.5v11M3 5.5h4M3 10.5h4"/><rect x="7.5" y="3.5" width="5.5" height="4" rx="1"/><rect x="7.5" y="8.5" width="5.5" height="4" rx="1"/></svg></button>
+        <nav class="treebar" id="treebar" aria-label="Site map" data-t-aria="aria.map" hidden></nav>
+      </div>
+      <button class="ic" id="sound" type="button" aria-pressed="true" aria-label="Sound" data-t-aria="c.sound" title="Sound" data-t-title="c.sound" hidden>
+        <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2.5 6.2h2.3L8 3.5v9L4.8 9.8H2.5z"/><path class="is-on" d="M10.5 5.8a3.2 3.2 0 0 1 0 4.4M12.4 4a5.8 5.8 0 0 1 0 8"/><path class="is-off" d="M10.6 6.2l3.6 3.6M14.2 6.2l-3.6 3.6"/></svg>
+      </button>
+      <button class="ic" id="motion" type="button" aria-pressed="true" aria-label="Motion" data-t-aria="c.motion" title="Motion" data-t-title="c.motion" hidden>
+        <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path class="is-on solid" d="M5.2 3.6v8.8l7-4.4z"/><path class="is-off" d="M5.6 3.8v8.4M10.4 3.8v8.4"/></svg>
+      </button>
+      <button class="ic lang" id="lang" type="button" aria-label="Language: EN. Switch to Spanish" data-t-aria="c.lang" title="Language: EN. Switch to Spanish" data-t-title="c.lang" hidden><span lang="en">EN</span><span lang="es">ES</span></button>
+      <button class="ic" id="theme" type="button" aria-pressed="false" aria-label="Dark mode" data-t-aria="c.dark" title="Dark mode" data-t-title="c.dark" hidden>
+        <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path class="moon" d="M13.2 10.1A5.6 5.6 0 0 1 5.9 2.8a5.6 5.6 0 1 0 7.3 7.3z"/><g class="sun"><circle cx="8" cy="8" r="2.9"/><path d="M8 1.2v1.6M8 13.2v1.6M1.2 8h1.6M13.2 8h1.6M3.2 3.2l1.1 1.1M11.7 11.7l1.1 1.1M3.2 12.8l1.1-1.1M11.7 4.3l1.1-1.1"/></g></svg>
+      </button>
+      <div class="hue">
+        <button class="ic sw" id="hue" type="button" aria-expanded="false" aria-controls="huebar" aria-label="Accent colour" data-t-aria="c.hue" title="Accent colour" data-t-title="c.hue" hidden><i aria-hidden="true"></i></button>
+        <div class="huebar" id="huebar" hidden>
+          <input type="range" id="hue-range" min="0" max="359" step="1" value="255" aria-label="Accent hue" data-t-aria="c.huer">
+          <button type="button" id="hue-reset" data-t="c.reset">Purple</button>
+        </div>
+      </div>
+      <button class="ic" id="term" type="button" aria-pressed="false" aria-label="Terminal mode" data-t-aria="c.term" title="Terminal mode" data-t-title="c.term" hidden>
+        <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2.8 4.6l3.4 3.4-3.4 3.4M8.2 11.6h5"/></svg>
+      </button>
+      <button class="ic" id="full" type="button" aria-pressed="false" aria-label="Full screen" data-t-aria="c.full" title="Full screen" data-t-title="c.full" hidden>
+        <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path class="is-off" d="M2.8 6V2.8H6M10 2.8h3.2V6M13.2 10v3.2H10M6 13.2H2.8V10"/><path class="is-on" d="M6 2.8V6H2.8M13.2 6H10V2.8M10 13.2V10h3.2M2.8 10H6v3.2"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="side">
+      <div class="intro">
+        <h1>
+          <span class="ln" data-t="h1.a">Hi, I'm José.</span>
+          <span class="ln" data-t="h1.b"><em>Chemical Engineer</em></span>
+          <span class="ln"><span data-t="h1.c">&amp; MSc in AI.</span><span class="caret" aria-hidden="true"></span></span>
+        </h1>
+        <p class="lede" data-t="lede">Chemical engineer, now doing an MSc in AI, and the builder of the agentic system this page describes. Several LLMs, one of them a model of my own that runs offline, share one memory of everything I know, follow written rules, log every change and learn from their own mistakes while a nightly routine checks their work. The same setup produces the engineering tools I design with, a handful of apps and a game. Every number on this page is measured, not estimated.</p>
+        <ul class="kpis">
+          <li class="kpi-py"><b data-count-up="340752">340,752</b><span data-t="kpi.py">lines of Python, written</span></li>
+          <li><b data-n="3302">3,302</b><span data-t="kpi.l">changes logged by agents</span></li>
+          <li><b data-n="32089">32,089</b><span data-t="kpi.n">nodes in its memory</span></li>
+          <li><b data-n="189">189</b><span data-t="kpi.s">lessons learned</span></li>
+        </ul>
+      </div>
+
+      <div class="deck">
+        <div class="case" id="case">
+          <nav class="keyboard" id="keyboard" aria-label="Sections" data-t-aria="nav">
+            <a class="k" href="#work" data-panel="work" style="--c:3/7;--r:1" aria-label="P, Portfolio" data-t-aria="ka.work"><span class="cap"><span class="legend" aria-hidden="true">P</span><span class="lbl" aria-hidden="true" data-t="kl.work">Portfolio</span><i class="led" aria-hidden="true"></i></span></a>
+            <a class="k" href="#harness" data-panel="harness" style="--c:7/11;--r:1" aria-label="O, the agents' operating system" data-t-aria="ka.harness"><span class="cap"><span class="legend" aria-hidden="true">O</span><span class="lbl" aria-hidden="true" data-t="kl.harness">Agents</span><i class="led" aria-hidden="true"></i></span></a>
+            <a class="k" href="#brain" data-panel="brain" style="--c:11/15;--r:1" aria-label="R, retrieval" data-t-aria="ka.brain"><span class="cap"><span class="legend" aria-hidden="true">R</span><span class="lbl" aria-hidden="true" data-t="kl.brain">Retrieval</span><i class="led" aria-hidden="true"></i></span></a>
+            <a class="k" href="#tools" data-panel="tools" style="--c:15/19;--r:1" aria-label="T, engineering tools" data-t-aria="ka.tools"><span class="cap"><span class="legend" aria-hidden="true">T</span><span class="lbl" aria-hidden="true" data-t="kl.tools">Eng. tools</span><i class="led" aria-hidden="true"></i></span></a>
+            <a class="k" href="#roots" data-panel="roots" style="--c:1/5;--r:2" aria-label="F, foundations" data-t-aria="ka.roots"><span class="cap"><span class="legend" aria-hidden="true">F</span><span class="lbl" aria-hidden="true" data-t="kl.roots">Foundations</span><i class="led" aria-hidden="true"></i></span></a>
+            <a class="k" href="#zeratul" data-panel="zeratul" style="--c:5/9;--r:2" aria-label="O, my own model" data-t-aria="ka.zeratul"><span class="cap"><span class="legend" aria-hidden="true">O</span><span class="lbl" aria-hidden="true" data-t="kl.zeratul">Own model</span><i class="led" aria-hidden="true"></i></span></a>
+            <a class="k" href="#lab" data-panel="lab" style="--c:9/13;--r:2" aria-label="L, the lab: experiments and prototypes" data-t-aria="ka.lab"><span class="cap"><span class="legend" aria-hidden="true">L</span><span class="lbl" aria-hidden="true" data-t="kl.lab">Lab</span><i class="led" aria-hidden="true"></i></span></a>
+            <a class="k" href="#apps" data-panel="apps" style="--c:13/17;--r:2" aria-label="I, inventions" data-t-aria="ka.apps"><span class="cap"><span class="legend" aria-hidden="true">I</span><span class="lbl" aria-hidden="true" data-t="kl.apps">Inventions</span><i class="led" aria-hidden="true"></i></span></a>
+            <a class="k" href="#play" data-panel="play" style="--c:17/21;--r:2" aria-label="O, off hours" data-t-aria="ka.play"><span class="cap"><span class="legend" aria-hidden="true">O</span><span class="lbl" aria-hidden="true" data-t="kl.play">Off hours</span><i class="led" aria-hidden="true"></i></span></a>
+            <a class="k enter" href="#talk" data-panel="talk" style="--c:21/26;--r:1/3" aria-label="Enter, let's talk" data-t-aria="ka.talk"><span class="cap"><span class="legend" aria-hidden="true">↵</span><span class="lbl" aria-hidden="true" data-t="kl.talk">Let's talk</span><i class="led" aria-hidden="true"></i></span></a>
+          </nav>
+          <label class="seek" for="q">
+            <span class="pr" aria-hidden="true">›</span>
+            <input id="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="go" placeholder="Type anything to search, or press a key" data-t-ph="s.ph" aria-label="Search the portfolio" data-t-aria="s.aria" aria-controls="find">
+            <kbd class="ek" aria-hidden="true">↵</kbd>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="stage" id="stage">
+
+      <section class="panel" id="work" aria-labelledby="work-h">
+        <header class="ph"><p class="eb"><span>01</span><b data-t="eb.work">Portfolio</b></p><h2 id="work-h" data-t="h.work">Six builds and 226,411 of those lines of Python, each with a <em>receipt</em>.</h2></header>
+        <div class="bento">
+          <a class="card live" href="#brain" data-go="brain" style="--a:mb">
+            <canvas class="cv" data-view="brain" aria-hidden="true"></canvas>
+            <span class="kc" aria-hidden="true">R</span>
+            <b class="ct">Motherbrain</b>
+            <span class="cd" data-t="cd.mb">A neural link to everything I know: one knowledge graph of my projects, files, notes and code, wired into the whole system.</span>
+            <span class="cm" data-t="cm.mb">32,089 nodes · 50,717 edges</span>
+            <span class="cm py" data-t="py.mb">5,578 lines of Python</span>
+          </a>
+          <a class="card live sp full" href="#harness" data-go="harness" style="--a:of" aria-label="Agentic Office" data-t-aria="ct.of">
+            <canvas class="cv" data-view="sprite" data-kind="office-roof" data-palette="construct" data-aspect="1.75" data-fill="0.66" data-lift="0.14" aria-hidden="true"></canvas>
+            <span class="kc" aria-hidden="true">O</span>
+            <span class="ov"><b class="ct" data-t="ct.of">Agentic Office</b>
+            <span class="cd" data-t="cd.of">Every live agent session gets a desk on this rooftop and its screen shows what it is working on; one key drops the room into the Construct.</span>
+            <span class="cm" data-t="cm.of">12 desks · 4 agents · three.js</span>
+            <span class="cm py" data-t="py.of">690 lines of Python</span></span>
+          </a>
+          <a class="card live sp" href="#tools" data-go="tools" style="--a:et">
+            <canvas class="cv" data-view="sprite" data-kind="tools" aria-hidden="true"></canvas>
+            <span class="kc" aria-hidden="true">T</span>
+            <b class="ct" data-t="ct.et">Engineering tools</b>
+            <span class="cd" data-t="cd.et">3D, P&amp;ID, PFD, electrical, isometrics, calculations.</span>
+            <span class="cm" data-t="cm.et">10 generators</span>
+            <span class="cm py" data-t="py.et">17,452 lines of Python</span>
+          </a>
+          <a class="card live tall" href="#play" data-go="play" style="--a:hf">
+            <canvas class="cv" data-view="marine" aria-hidden="true"></canvas>
+            <span class="kc" aria-hidden="true">O</span>
+            <b class="ct">The Hammer Falls</b>
+            <span class="cd" data-t="cd.hf">A third-person game in Unreal Engine, built from the terminal.</span>
+            <span class="cm">UE 5.8</span>
+            <span class="cm py" data-t="py.hf">47,766 lines of Python</span>
+          </a>
+          <a class="card live sp" href="#zeratul" data-go="zeratul" style="--a:ze">
+            <canvas class="cv" data-view="marine" data-figure="zeratul" aria-hidden="true"></canvas>
+            <span class="kc" aria-hidden="true">O</span>
+            <b class="ct">Zeratul</b>
+            <span class="cd" data-t="cd.ze">A local LLM inside a harness I wrote.</span>
+            <span class="cm" data-t="cm.ze">89&nbsp;% · 3 seeds</span>
+            <span class="cm py" data-t="py.ze">46,155 lines of Python</span>
+          </a>
+          <a class="card live sp ig" href="#igni" data-go="igni" style="--a:ig">
+            <canvas class="cv" data-view="sprite" data-kind="igni" data-palette="onaccent" aria-hidden="true"></canvas>
+            <span class="kc" aria-hidden="true">O</span>
+            <b class="ct">Igni</b>
+            <span class="cd" data-t="cd.ig">How my mind works, written down: memory, habits, agents and a nightly run.</span>
+            <span class="cm" data-t="cm.ig">4 agents · 3,302 changes</span>
+            <span class="cm py" data-t="py.ig">58,046 lines of Python</span>
+          </a>
+          <div class="stack" style="--a:ic">
+            <div class="card sp half soon" aria-disabled="true">
+              <canvas class="cv" data-view="sprite" data-kind="consult" aria-hidden="true"></canvas>
+              <span class="hc">
+                <b class="ct" data-t="net.consult">AI consultancy</b>
+                <span class="cd" data-t="cd.cs">Agentic systems for companies: a new site, under development.</span>
+                <span class="cm" data-t="net.soon">soon</span>
+              </span>
+            </div>
+            <div class="card sp half" data-app="offaxis">
+              <canvas class="cv" data-view="sprite" data-kind="offaxis" aria-hidden="true"></canvas>
+              <span class="hc">
+                <b class="ct" data-t="pn.oa">Off-axis desktop</b>
+                <span class="cd" data-t="pl.oa">A ruined hall behind the screen that shifts with your head, at real scale.</span>
+                <span class="cm" data-t="pm.oa">head-tracked</span>
+                <span class="cm py" data-t="py.oa">HTML · three.js · webcam</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="harness" aria-labelledby="harness-h">
+        <header class="ph"><p class="eb"><span>02</span><b data-t="eb.harness">Agent operating system</b></p><h2 id="harness-h" data-t="h.harness">Four agents, one workspace, <em>fifty-eight</em> rules.</h2></header>
+        <div class="split">
+          <div class="col">
+            <p class="tx" data-t="tx.harness">Claude, Codex, Gemini and my own local model share one agentic workspace I call Igni. Each claims a path before it edits and logs every consequential change to a shared ledger. A 46-step daily run backs up, audits and re-indexes the lot.</p>
+            <div class="stats">
+              <div class="stat"><div class="n" data-count="4">4</div><div class="l" data-t="st.agents">agents in the harness</div></div>
+              <div class="stat"><div class="n" data-count="58">58</div><div class="l" data-t="st.rules">standing rules, each with its why</div></div>
+              <div class="stat"><div class="n" data-count="3302">3,302</div><div class="l" data-t="st.changes">changes logged since 24 Jun</div></div>
+              <div class="stat"><div class="n" data-count="46">46</div><div class="l" data-t="st.steps">steps in the daily run</div></div>
+            </div>
+          </div>
+          <div class="viz office">
+            <canvas class="cv" data-view="sprite" data-kind="office-roof" data-palette="construct" data-interactive="1" aria-label="The agents' office on a rooftop in the Construct, drawn in 3D lines: twelve desks, a lounge and a kitchen, the agents at work, Sentinels circling the building and the neighbours' roofs around. Drag to rotate, scroll to zoom." data-t-aria="aria.office" role="img"></canvas>
+            <p class="cap-note" data-t="note.office">Agentic Office · drag to rotate · scroll to zoom</p>
+          </div>
+        </div>
+        <div class="ledger" role="figure" aria-label="Excerpt from the change ledger" data-t-aria="aria.ledger">
+          <div class="hd"><span>change-ledger.md</span><span data-t="ledger.when">4–11 Oct 2026</span></div>
+          <div class="lines">
+            <div class="ln"><i>10-11 01:12</i> <b>claude</b> off-axis-window Rev G: hall at real size in metres, CC0 props 3–36 m</div>
+            <div class="ln"><i>10-10 14:39</i> <b>claude</b> GPU Bar Rev C: IOKit reads, per-client GPU deltas, 0.5 s-averaged total</div>
+            <div class="ln"><i>10-10 10:31</i> <b>claude</b> claim lifecycle closed: release-session, SessionEnd hook, nightly sweep, 17 tests</div>
+            <div class="ln"><i>10-09 21:16</i> <b>claude</b> new skill: I/O list + ISA-5.4 loop DXFs from a JSON spec, gated against the netlist</div>
+            <div class="ln"><i>10-04 22:33</i> <b>codex</b> The Hammer Falls v1.43 delivered: nine realism changes implemented</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="igni" data-host="harness" data-name="Igni" aria-labelledby="igni-h">
+        <header class="ph"><p class="eb"><span>00</span><b data-t="eb.igni">Igni · how I think</b></p><h2 id="igni-h" data-t="h.igni">Igni: how my <em>mind</em> works, written down.</h2></header>
+        <div class="split ig">
+          <div class="col">
+            <p class="tx" data-t="tx.igni">Igni is the agentic architecture I work inside: a knowledge graph for what I know, written rules for how I work, and a harness that loads both into every LLM agent before it touches a file, whichever model it is, my own included. When an agent gets something wrong, the fix becomes a lesson; a lesson that repeats becomes a rule. Less an app than a way of working the agents can read.</p>
+            <ol class="loop" aria-label="How a mistake becomes a habit" data-t-aria="aria.loop">
+              <li data-t="lp.1">a mistake</li><li data-t="lp.2">a lesson</li><li data-t="lp.3">it repeats</li><li data-t="lp.4">a rule</li><li data-t="lp.5">every agent, next session</li>
+            </ol>
+            <ol class="parts" aria-label="How my mind works" data-t-aria="aria.parts">
+              <li class="part" data-kind="ig-memory"><button class="pt" type="button" aria-haspopup="dialog"><i aria-hidden="true">01</i><b>Motherbrain</b><span class="r" data-t="pr.1">the memory</span><span class="cd" data-t="pd.1">Everything I know in one graph: projects, files, notes, drawings and code. Every LLM asks it first, so none of them starts a job blind.</span><span class="cm" data-t="pm.1">32,089 nodes · 3 MCP tools</span></button><span class="px" hidden data-t="px.1">Each file becomes nodes and the links between them. An agent asks a question in plain words and gets back the few files that answer it, with the path to open, instead of reading the whole tree.</span></li>
+              <li class="part" data-kind="ig-harness"><button class="pt" type="button" aria-haspopup="dialog"><i aria-hidden="true">02</i><b>Tassadar</b><span class="r" data-t="pr.2">the harness</span><span class="cd" data-t="pd.2">The layer that makes any LLM work the way I do: rules, skills and hooks it loads before it touches a file. Swap the model and the habits stay.</span><span class="cm" data-t="pm.2">58 rules · 30 skills · 12 hooks</span></button><span class="px" hidden data-t="px.2">Rules say what never to do and why. Skills are step-by-step recipes for a kind of job. Hooks run on their own at the start and end of a session, so nothing depends on the agent remembering.</span></li>
+              <li class="part" data-kind="ig-agents"><button class="pt" type="button" aria-haspopup="dialog"><i aria-hidden="true">03</i><b data-t="pb.3">The agents</b><span class="r" data-t="pr.3">the hands</span><span class="cd" data-t="pd.3">Several LLMs on one desk. Each claims a path before it edits, so two never touch the same file, and logs what it changed.</span><span class="cm" data-t="pm.3">3,302 ledger entries</span></button><span class="px" hidden data-t="px.3">A claim is a line in a shared file: who, which path, since when. A second agent that asks for the same path is refused. Every change ends with an entry in the ledger, so tomorrow’s session can read what today’s did.</span></li>
+              <li class="part" data-kind="ig-model"><button class="pt" type="button" aria-haspopup="dialog"><i aria-hidden="true">04</i><b>Zeratul</b><span class="r" data-t="pr.4">my own model</span><span class="cd" data-t="pd.4">An open-weights LLM on my own Mac, inside a harness I wrote. It does the work with the network cable pulled out.</span><span class="cm" data-t="pm.4">21 shared skills</span></button><span class="px" hidden data-t="px.4">The harness routes each request to the right skill, gives the model its tools and checks the result before it counts. A capability isn’t done until it passes the same test gauntlet every time.</span></li>
+              <li class="part" data-kind="ig-night"><button class="pt" type="button" aria-haspopup="dialog"><i aria-hidden="true">05</i><b data-t="pb.5">The nightly run</b><span class="r" data-t="pr.5">the sleep</span><span class="cd" data-t="pd.5">While I sleep: backups, re-indexing, audits, and a canary that proves the checkers still catch what they should.</span><span class="cm" data-t="pm.5">46 steps · 86 audits</span></button><span class="px" hidden data-t="px.5">One script runs every step in order and writes a one-line status for each. A checker that can’t run is reported as broken, not as clean, and the morning brief says what needs me.</span></li>
+              <li class="part" data-kind="ig-lessons"><button class="pt" type="button" aria-haspopup="dialog"><i aria-hidden="true">06</i><b data-t="pb.6">Lessons → rules</b><span class="r" data-t="pr.6">the metacognition</span><span class="cd" data-t="pd.6">When an LLM gets something wrong, the fix is written down as a one-page lesson. A lesson that repeats becomes a rule every agent follows.</span><span class="cm" data-t="pm.6">189 lessons · 3 promoted</span></button><span class="px" hidden data-t="px.6">Each lesson records what happened, why and what to do instead. Every session opens with the latest ones, so a mistake made on Monday by one model isn’t repeated on Tuesday by another.</span></li>
+              <li class="part" data-kind="ig-face"><button class="pt" type="button" aria-haspopup="dialog"><i aria-hidden="true">07</i><b>Mojo</b><span class="r" data-t="pr.7">the face</span><span class="cd" data-t="pd.7">The whole system at a glance: a face whose mood follows measured state, and that looks worried when a night run failed.</span><span class="cm" data-t="pm.7">4 moods</span></button><span class="px" hidden data-t="px.7">It reads the same status files the agents write. Green checks make it calm; a failed step or a stale claim changes its expression, so I see trouble before I read a log.</span></li>
+            </ol>
+          </div>
+          <div class="viz">
+            <canvas class="cv" data-view="sprite" data-kind="igni" data-interactive="1" role="img" aria-label="Igni drawn as its architecture: Motherbrain, the memory, as a solid brain, and four LLM agents in orange walking its surface, each tethered to the memory. Drag to rotate, scroll to zoom." data-t-aria="aria.igni"></canvas>
+            <p class="cap-note" data-t="note.igni">Igni · drag to rotate · scroll to zoom</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="brain" aria-labelledby="brain-h">
+        <header class="ph"><p class="eb"><span>03</span><b data-t="eb.brain">Retrieval</b></p><h2 id="brain-h" data-t="h.brain">Every question starts in the <em>brain</em>.</h2></header>
+        <p class="tx" data-t="tx.brain">A neural link to everything I know: projects, files, notes, drawings and code in one knowledge graph, wired into the whole system and served to the agents as a local MCP server. Query it before opening a file; exhaust it before calling anything missing.</p>
+        <div class="viz">
+          <canvas class="cv" data-view="brain" data-interactive="1" aria-label="The knowledge graph in 3D. Drag to rotate, scroll to zoom." data-t-aria="aria.brain" role="img"></canvas>
+          <p class="q" aria-hidden="true"><span class="qp">›</span> <span id="query">motherbrain_search("revision letters")</span></p>
+          <p class="cap-note" id="brain-note" data-t="note.brain">Drag to rotate · scroll to zoom</p>
+        </div>
+        <ul class="inline-stats">
+          <li><b data-count="32089">32,089</b> <span data-t="is.nodes">nodes</span></li>
+          <li><b data-count="50717">50,717</b> <span data-t="is.edges">edges</span></li>
+          <li><b>3</b> <span data-t="is.tools">MCP tools: search, explain, path</span></li>
+        </ul>
+      </section>
+
+      <section class="panel" id="tools" aria-labelledby="tools-h">
+        <header class="ph"><p class="eb"><span>04</span><b data-t="eb.tools">Engineering tools</b></p><h2 id="tools-h" data-t="h.tools">Ten tools that draw and check what a plant <em>needs</em>.</h2></header>
+        <p class="tx" data-t="tx.tools">Most are skills: written procedures with their checks built in, so nothing ships until it passes. Open any of them for the detail.</p>
+        <div class="eng">
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="plant3d" aria-hidden="true"></canvas><b data-t="tl.plant3d">3D plant</b><span class="cd" data-t="td.plant3d">Plants as solids; six audit checks.</span><span class="cm">STEP + DXF</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="pid" aria-hidden="true"></canvas><b>P&amp;ID</b><span class="cd" data-t="td.pid">Netlist first; no line can dangle.</span><span class="cm">G0–G8</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="pfd" aria-hidden="true"></canvas><b data-t="tl.pfd">PFD &amp; mass balance</b><span class="cd" data-t="td.pfd">No drawing until the balance closes.</span><span class="cm" data-t="tm.pfd">balance closes</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="electrical" aria-hidden="true"></canvas><b data-t="tl.electrical">Electrical</b><span class="cd" data-t="td.electrical">IEC panels, checked by their netlist.</span><span class="cm" data-t="tm.electrical">netlist checked</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="iso" aria-hidden="true"></canvas><b data-t="tl.iso">Isometrics</b><span class="cd" data-t="td.iso">One sheet per line, checked to the P&amp;ID.</span><span class="cm" data-t="tm.iso">65 components</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="calc" aria-hidden="true"></canvas><b data-t="tl.calc">Calculations</b><span class="cd" data-t="td.calc">Every number from first principles.</span><span class="cm" data-t="tm.calc">three layers</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="io" aria-hidden="true"></canvas><b data-t="tl.io">I/O &amp; loops</b><span class="cd" data-t="td.io">One spec, checked against the wiring.</span><span class="cm">ISA-5.4-style</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="datasheet" aria-hidden="true"></canvas><b data-t="tl.datasheet">Data sheets</b><span class="cd" data-t="td.datasheet">One A3 sheet with the vessel drawn.</span><span class="cm" data-t="tm.datasheet">vessels</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="sim" aria-hidden="true"></canvas><b data-t="tl.sim">Simulation</b><span class="cd" data-t="td.sim">30 equipment types, steady or dynamic.</span><span class="cm">EIWA</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="sketch" aria-hidden="true"></canvas><b data-t="tl.sketch">Sketch → CAD</b><span class="cd" data-t="td.sketch">A hand sketch in, a layered DXF out.</span><span class="cm">P&amp;ID Studio</span></div>
+        </div>
+      </section>
+
+      <section class="panel" id="roots" aria-labelledby="roots-h">
+        <header class="ph"><p class="eb"><span>05</span><b data-t="eb.roots">Foundations</b></p><h2 id="roots-h" data-t="h.roots">From LNG terminals to water plants, now building with <em>AI</em>.</h2></header>
+        <div class="split cv">
+          <div class="col">
+            <h3 data-t="cv.exp">Experience</h3>
+            <ol class="tl">
+              <li class="job"><span class="y">2026–</span><b data-t="j1.r">Project Engineer</b><span class="w" data-t="j1.w">Water-treatment engineering · Ireland</span><span class="d" data-t="j1.d">Filtration, softening, RO, DI, UF, chemical dosing and UV: design, specification, suppliers and commissioning.</span><ul class="ach"><li data-t="j1.a1">Technical point of contact for pharmaceutical, food, manufacturing and municipal clients, from enquiry to commissioning.</li><li data-t="j1.a2">Brought AI tools into the team’s daily work: document search, drawing and proposal generation, automated quality checks.</li></ul></li>
+              <li class="job"><span class="y">2023–25</span><b data-t="j2.r">Operations Manager</b><span class="w" data-t="j2.w">Food distribution · USA</span><span class="d" data-t="j2.d">Operations, the purchasing and contracts team, sales targets, import-cost negotiation and inventory KPIs.</span><ul class="ach"><li data-t="j2.a1">Accountable for monthly commercial targets and client retention.</li><li data-t="j2.a2">Resolved customer and supplier disputes on quality, quantity and delivery times.</li></ul></li>
+              <li class="job"><span class="y">2023</span><b data-t="j3.r">Technical Manager</b><span class="w" data-t="j3.w">Flotation technology for mining · Chile</span><span class="d" data-t="j3.d">Led engineering, lab, projects and admin; restructured a team of 13 and brought the technology to large miners in Chile and Canada.</span><ul class="ach"><li data-t="j3.a1">Client-side pilot-plant campaigns that proved the technology on the client’s own site.</li><li data-t="j3.a2">Introduced performance metrics, standardised functions and redefined roles; reported to the US parent company.</li></ul></li>
+              <li class="job"><span class="y">2021–23</span><b data-t="j4.r">Product Manager</b><span class="w" data-t="j4.w">Electronics import · Chile</span><span class="d" data-t="j4.d">Logistics, sales and customs; the product lifecycle, the annual sales plan and supplier negotiation in China.</span><ul class="ach"><li data-t="j4.a1">Ran the full import and customs-clearance process.</li><li data-t="j4.a2">Prepared the annual sales plan and monthly reports.</li></ul></li>
+              <li class="job"><span class="y">2019–21</span><b data-t="j5.r">Head of Process Engineering &amp; Energy Efficiency</b><span class="w" data-t="j5.w">LNG regasification terminal · Chile</span><span class="d" data-t="j5.d">Energy-efficiency and pre-feasibility studies, green-hydrogen and energy-recovery screening, ISO 50001 certification, commissioning of ultrasonic meters and cryogenic pumps.</span><ul class="ach"><li data-t="j5.a1">Chaired interdisciplinary committees (process, mechanical, electrical, instrumentation, operations) that approved plant changes on a live, safety-critical site.</li><li data-t="j5.a2">Member of the technical committee of the national natural-gas industry association.</li></ul></li>
+              <li class="job"><span class="y">2015–19</span><b data-t="j6.r">Process Engineering &amp; Metering Supervisor</b><span class="w" data-t="j6.w">LNG regasification terminal · Chile</span><span class="d" data-t="j6.d">Process engineering and the gas-quality lab, national consumption forecasts, CAPEX/OPEX, ISO 6974/6976 metrology, ISO 9001/14001/OHSAS 18001 certification.</span><ul class="ach"><li data-t="j6.a1">Monthly and annual reporting to the board.</li><li data-t="j6.a2">Maintenance plans for the terminal’s analytical and metering instruments.</li></ul></li>
+            </ol>
+          </div>
+          <div class="col edu">
+            <h3 data-t="cv.edu">Education</h3>
+            <div class="rows">
+              <div class="row"><b data-t="r1.b">Chemical engineering</b><span class="d" data-t="r1.d">Professional title in chemical engineering after a six-year programme in Chile, with internships at a refinery and a copper smelter.</span><span class="m">2005–13</span></div>
+              <div class="row"><b data-t="r2.b">BSc in Engineering</b><span class="d" data-t="r2.d">Engineering-science degree, the first stage of the same programme: maths, physics, thermodynamics and transport phenomena.</span><span class="m" data-t="r2.m">from 2005</span></div>
+              <div class="row"><b data-t="r3.b">MSc in Artificial Intelligence</b><span class="d" data-t="r3.d">Studying it alongside full-time engineering work.</span><span class="m">2026–27</span></div>
+            </div>
+            <h3 data-t="cv.cert">Certifications</h3>
+            <ul class="chips"><li data-t="c1">ISO 50001 Lead Auditor (IRCA)</li><li data-t="c2">Aspen HYSYS dynamic modelling</li><li data-t="c3">ISO 9001 · 14001 · 18001 · 27001 integrated systems</li><li data-t="c4">ISO 17025 laboratories</li><li data-t="c5">Ultrasonic meters &amp; gas chromatographs</li><li data-t="c6">Metrology &amp; measurement uncertainty</li><li data-t="c7">Gas metering systems &amp; stations</li><li data-t="c8">Tank-level instrumentation</li><li data-t="c9">Process gas chromatograph O&amp;M</li><li data-t="c10">Flotation pilot &amp; demo plants (USA, Canada)</li></ul>
+            <div class="facts">
+            <p class="cvl"><span data-t="cv.com">Community</span> <b data-t="cv.coms">Claude Community, Cork · AIS26, Dublin</b></p>
+            <p class="cvl"><span data-t="cv.lang">Languages</span> <b data-t="cv.langs">Spanish, English</b></p>
+            <p class="cvl sw"><span data-t="cv.sw">Software</span> <b>Python · JavaScript · MATLAB · VBA · Git · Electron/Node · Aspen HYSYS · PIPE-FLO · AutoCAD · OSIsoft PI · Power BI · SAP · TIA Portal · Blender · Unreal Engine 5</b></p>
+            <p class="cvl sw"><span data-t="cv.ai">AI</span> <b data-t="cv.ais">Claude Code · Codex · Antigravity · Ollama · MLX · MCP · RAG · knowledge graphs · eval harnesses · LoRA</b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="zeratul" aria-labelledby="zeratul-h">
+        <header class="ph"><p class="eb"><span>06</span><b data-t="eb.zeratul">Own model</b></p><h2 id="zeratul-h" data-t="h.zeratul">My own model, running <em>offline</em>.</h2></header>
+        <div class="split zs">
+          <div class="col">
+            <p class="tx" data-t="tx.zeratul">An open model on my laptop inside Raszagal, a harness I wrote. Given a written brief, it picks my process-diagram skill and returns the finished CAD drawing on its own: 119&nbsp;s the first time.</p>
+            <p class="tx" data-t="tx.zeratul2">Raszagal routes each request to a skill, retrieves from my knowledge graph, and verifies answers by running them instead of judging them: code pass rate went from 72 to 89&nbsp;% on that change alone. Anything that came in through web or mail is tainted and cannot run code until I approve it.</p>
+            <dl class="specs">
+              <div><dt data-t="zs.k1">Base</dt><dd data-t="zs.v1">Qwen3.6-35B-A3B, open (Apache-2.0)</dd></div>
+              <div><dt data-t="zs.k2">Experts</dt><dd data-t="zs.v2">256, 8 per token, ~3B active</dd></div>
+              <div><dt data-t="zs.k3">Size</dt><dd data-t="zs.v3">4-bit, 23&nbsp;GB, 256K context</dd></div>
+              <div><dt data-t="zs.k4">Runs on</dt><dd data-t="zs.v4">one laptop, fully offline; speaks the OpenAI API</dd></div>
+              <div><dt data-t="zs.k5">Speed</dt><dd data-t="zs.v5">47–64 tokens/s measured locally; +46&nbsp;% on the MLX runner</dd></div>
+              <div><dt data-t="zs.k6">Harness</dt><dd data-t="zs.v6"><b data-count="28270">28,270</b> lines, 16 tools, 21 skills</dd></div>
+              <div><dt data-t="zs.k7">Safety</dt><dd data-t="zs.v7">web or mail input locks code until I approve</dd></div>
+              <div><dt data-t="zs.k8">Tested</dt><dd data-t="zs.v8">163 cases, 8 axes, no AI judge</dd></div>
+              <div><dt data-t="zs.k9">Training</dt><dd data-t="zs.v9">LoRA on my own architecture.</dd></div>
+            </dl>
+            <div class="gauntlet">
+              <svg class="ring" viewBox="0 0 110 110" role="img" aria-label="89 % pass rate" data-t-aria="aria.ring">
+                <circle class="bg" cx="55" cy="55" r="46"/>
+                <circle class="fg" id="ring-fg" cx="55" cy="55" r="46" pathLength="1"/>
+                <text x="55" y="55">89&nbsp;%</text>
+              </svg>
+              <div class="gt"><b data-t="gt.b">Latest official gauntlet</b><span data-t="gt.s">A 120-case slice of a 163-case bank, three seeds pooled, compared case by case against the previous build.</span></div>
+            </div>
+            <div>
+              <div class="track" id="roadmap" role="img" aria-label="Roadmap progress: 100 done, 55 partial, 64 to do" data-t-aria="aria.track"><i class="done" data-w="45.7"></i><i class="part" data-w="25.1"></i></div>
+              <div class="legendrow"><span><i class="sw done"></i><span data-t="lg.done">100 done</span></span><span><i class="sw part"></i><span data-t="lg.part">55 partial</span></span><span><i class="sw todo"></i><span data-t="lg.todo">64 to do</span></span></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="viz">
+              <canvas class="cv" data-view="marine" data-figure="zeratul" data-interactive="1" aria-label="Zeratul, a hooded Dark Templar with a warp blade, walking in a see-through purple shell with his Protoss skeleton visible inside: a long swept-back skull with no jaw, a keeled chest and three-fingered hands. Drag to rotate, scroll to zoom." data-t-aria="aria.zeratul" role="img"></canvas>
+              <p class="cap-note" data-t="note.zeratul">Zeratul · drag to rotate · scroll to zoom</p>
+            </div>
+            <div class="bench" role="group" aria-labelledby="bench-h1">
+              <p class="bh" id="bench-h1"><b data-t="bn.h1">Gauntlet by axis</b><span data-t="bn.s1">17-Sep-2026 · 120 cases · three seeds pooled · pass rate</span></p>
+              <ol class="bars">
+                <li><span data-t="bn.a1">Math</span><i style="--v:100"></i><em>100</em></li>
+                <li><span data-t="bn.a2">Calibration</span><i style="--v:100"></i><em>100</em></li>
+                <li><span data-t="bn.a3">Code</span><i style="--v:100"></i><em>100</em></li>
+                <li><span data-t="bn.a4">Domain</span><i style="--v:94"></i><em>94</em></li>
+                <li><span data-t="bn.a5">Reasoning</span><i style="--v:92"></i><em>92</em></li>
+                <li><span data-t="bn.a6">Agentic</span><i style="--v:76"></i><em>76</em></li>
+                <li><span data-t="bn.a7">Authority</span><i style="--v:75"></i><em>75</em></li>
+                <li><span data-t="bn.a8">Instruction</span><i style="--v:67"></i><em>67</em></li>
+              </ol>
+            </div>
+            <div class="bench" role="group" aria-labelledby="bench-h2">
+              <p class="bh" id="bench-h2"><b data-t="bn.h2">Why this base</b><span data-t="bn.s2">12-Jul-2026 bake-off · same 44-case suite · deterministic checks, no AI judge</span></p>
+              <ol class="bars">
+                <li class="me"><span>Qwen3.6-35B</span><i style="--v:98"></i><em>98</em></li>
+                <li><span>Qwen3.6-27B</span><i style="--v:95"></i><em>95</em></li>
+                <li><span data-t="bn.b3">gpt-oss-120B, the incumbent</span><i style="--v:89"></i><em>89</em></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" id="lab" aria-labelledby="lab-h">
+        <header class="ph"><p class="eb"><span>07</span><b data-t="eb.lab">Lab</b></p><h2 id="lab-h" data-t="h.lab">Where new tools are <em>tried</em> before they earn a place.</h2></header>
+        <p class="tx" data-t="tx.lab">Where new tools are tested before they join a new build programme version: seven leading open-source repos for water and process engineering on GitHub, which I am rebuilding as new, upgraded versions.</p>
+        <div class="eng lab">
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="rp-watertap" aria-hidden="true"></canvas><b>WaterTAP</b><span class="cd" data-t="td.rp1">Upgrade: desalinated water for a mine, screened fast.</span><span class="cm" data-t="tm.rp">upgrade in progress</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="rp-qsdsan" aria-hidden="true"></canvas><b>QSDsan</b><span class="cd" data-t="td.rp6">Upgrade: treatment options compared on cost and carbon.</span><span class="cm" data-t="tm.rp">upgrade in progress</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="rp-bsm2" aria-hidden="true"></canvas><b>BSM2</b><span class="cd" data-t="td.rp4">Upgrade: years of realistic plant data, on demand.</span><span class="cm" data-t="tm.rp">upgrade in progress</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="rp-phreeq" aria-hidden="true"></canvas><b>PhreeqPython</b><span class="cd" data-t="td.rp3">Upgrade: a scaling and neutralisation calculator.</span><span class="cm" data-t="tm.rp">upgrade in progress</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="rp-wntr" aria-hidden="true"></canvas><b>WNTR</b><span class="cd" data-t="td.rp2">Upgrade: earthquake damage and recovery for a water network.</span><span class="cm" data-t="tm.rp">upgrade in progress</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="rp-fluids" aria-hidden="true"></canvas><b>fluids</b><span class="cd" data-t="td.rp7">Upgrade: pump and pipe sizing, in Spanish.</span><span class="cm" data-t="tm.rp">upgrade in progress</span></div>
+          <div class="tool"><canvas class="cv" data-view="sprite" data-kind="rp-pyod" aria-hidden="true"></canvas><b>PyOD</b><span class="cd" data-t="td.rp5">Upgrade: faults found in plant data.</span><span class="cm" data-t="tm.rp">upgrade in progress</span></div>
+        </div>
+      </section>
+
+      <section class="panel" id="apps" aria-labelledby="apps-h">
+        <header class="ph"><p class="eb"><span>08</span><b data-t="eb.apps">Inventions</b></p><h2 id="apps-h" data-t="h.apps">Six apps, one <em>system</em>.</h2></header>
+        <p class="tx" data-t="tx.apps">Six apps built around the system: one decides what the agents may do, one is its face, one types what I say, one listens to my music, one pins a window on top and one lives in my pocket.</p>
+        <div class="apps">
+          <div class="tile"><canvas class="cv" data-view="sprite" data-kind="arbiter" aria-hidden="true"></canvas><b>Arbiter</b><p data-t="ap.arb">Reviews every Claude Code and Codex permission request from the menu bar: one plain sentence on what will happen, a risk level, and more friction for riskier requests.</p><span data-t="am.arb">Swift · menu bar</span></div>
+          <div class="tile"><canvas class="cv" data-view="sprite" data-kind="mojo" aria-hidden="true"></canvas><b>Mojo</b><p data-t="ap.mojo">The system's own face: its expression follows the measured state of the workspace, and it answers questions from the knowledge graph.</p><span data-t="am.mojo">Electron · cockpit</span></div>
+          <div class="tile"><canvas class="cv" data-view="sprite" data-kind="wispr" aria-hidden="true"></canvas><b>WisprPro</b><p data-t="ap.wispr">Hold a key, speak, let go: the words land at the cursor in any app, transcribed and tidied on my own Mac, nothing sent anywhere.</p><span data-t="am.wispr">Swift · local Whisper</span></div>
+          <div class="tile"><canvas class="cv" data-view="sprite" data-kind="musi" aria-hidden="true"></canvas><b>Musi</b><p data-t="ap.musi">A Logic Pro companion that listens to the project: tempo, key, groove, drum grid, chords, loudness, and the closest sound in my own sample library.</p><span data-t="am.musi">Electron · Python engine</span></div>
+          <div class="tile"><canvas class="cv" data-view="sprite" data-kind="topit" aria-hidden="true"></canvas><b>Topit</b><p data-t="ap.topit">Pins any window on top of the rest. An open-source app I compiled from source, patched and signed on my own Mac so it keeps working without its update feed.</p><span data-t="am.topit">Swift · built from source</span></div>
+          <div class="tile"><canvas class="cv" data-view="sprite" data-kind="mio" aria-hidden="true"></canvas><b>Mio</b><p data-t="ap.mio">A live AI companion for the iPhone: screen always on, a wake word, streamed speech you can interrupt, and a model that runs on the phone itself.</p><span data-t="am.mio">Swift · iPhone · on-device</span></div>
+        </div>
+      </section>
+
+      <section class="panel" id="play" aria-labelledby="play-h">
+        <header class="ph"><p class="eb"><span>09</span><b data-t="eb.play">Off hours</b></p><h2 id="play-h" data-t="h.play">Where the same tools go to <em>play</em>.</h2></header>
+        <div class="split wide-left">
+          <div class="viz">
+            <canvas class="cv" data-view="marine" data-interactive="1" aria-label="The Hammer Falls marine, a Terran Marine in powered armour, walking in a see-through purple shell with his skeleton visible inside, his C-14 gauss rifle drawn as a solid in both hands. Drag to rotate, scroll to zoom." data-t-aria="aria.marine" role="img"></canvas>
+            <p class="cap-note" data-t="note.marine">The Hammer Falls marine · walk cycle · drag to rotate · scroll to zoom · Marine and C-14 rifle model by dwelfster, CC BY</p>
+          </div>
+          <div class="rows six">
+            <div class="row"><b>The Hammer Falls</b><span class="d" data-t="pl.hf">A third-person shooter in Unreal Engine 5.8, C++ and Blueprints: compiled, packaged and profiled from the terminal, the editor running without its window.</span><span class="m">UE 5.8</span></div>
+            <div class="row"><b data-t="pn.rg">Rig and rifle hold</b><span class="d" data-t="pl.rg">Python scripts in headless Blender build the rig and its IK: the wrist follows the rifle, the first-person camera rides the head bone.</span><span class="m">Blender</span></div>
+            <div class="row"><b data-t="pn.py">Build pipeline</b><span class="d" data-t="pl.py">Some 46,000 lines of Python drive the headless editor: builds, screenshot checks and the metrics that decide the next fix.</span><span class="m">Python</span></div>
+            <div class="row"><b data-t="pn.oa">Off-axis window</b><span class="d" data-t="pl.oa">A ruined hall behind the screen that shifts with your head, at real scale.</span><span class="m" data-t="pm.oa">head-tracked</span></div>
+            <div class="row"><b data-t="pn.bl">3D from pictures</b><span class="d" data-t="pl.bl">Screenshots rebuilt as geometry in headless Blender, measured before modelled.</span><span class="m">Blender</span></div>
+            <div class="row"><b data-t="pn.mr">This marine</b><span class="d" data-t="pl.mr">A fan-made marine (dwelfster, CC BY), decimated and its walk baked offline, drawn beside this list on a plain 2D canvas: no WebGL.</span><span class="m">canvas</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel talk" id="talk" aria-labelledby="talk-h">
+        <header class="ph"><p class="eb"><span>↵</span><b data-t="eb.talk">Let's talk</b></p><h2 id="talk-h" data-t="h.talk">Hiring, collaborating, or curious how my <em>mind</em> works?</h2></header>
+        <div class="split talkx">
+          <div class="col">
+            <p class="tx" id="talk-note" data-t="talk.note">Find me on these.</p>
+            <div class="nets" id="nets">
+              <a class="net" data-net="github" href="https://github.com/jmguerrav" target="_blank" rel="noopener"><span class="cap"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 .2a8 8 0 0 0-2.5 15.6c.4 0 .5-.2.5-.4v-1.5c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.4.7 0-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8a7.6 7.6 0 0 1 4 0c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.8-3.6 4 .3.3.6.8.6 1.5v2.2c0 .2.1.5.6.4A8 8 0 0 0 8 .2z"/></svg><b>GitHub</b><small>jmguerrav</small></span></a>
+              <a class="net" data-net="linkedin" href="https://www.linkedin.com/in/joseguerrav" target="_blank" rel="noopener"><span class="cap"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M1.5 5.5h2.9V15H1.5zM3 1a1.7 1.7 0 1 1 0 3.4A1.7 1.7 0 0 1 3 1zm3.2 4.5H9v1.3c.4-.8 1.4-1.5 2.8-1.5 3 0 3.6 2 3.6 4.6V15h-2.9v-4.6c0-1.1 0-2.5-1.5-2.5s-1.8 1.2-1.8 2.4V15H6.2z"/></svg><b>LinkedIn</b><small>joseguerrav</small></span></a>
+              <a class="net" data-net="tiktok" href="https://www.tiktok.com/@ignitzen" target="_blank" rel="noopener"><span class="cap"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M11.2 1h-2.5v9.6a2.1 2.1 0 1 1-2.1-2.1c.2 0 .4 0 .6.1V6a4.6 4.6 0 1 0 4 4.6V5.7a5.4 5.4 0 0 0 3.2 1V4.2A3.2 3.2 0 0 1 11.2 1z"/></svg><b>TikTok</b><small>@ignitzen</small></span></a>
+              <span class="net soon" data-net="consult" role="link" aria-disabled="true" tabindex="0"><span class="cap"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5 9.6 6l4.6.2-3.7 2.8 1.3 4.5L8 10.9 4.2 13.5l1.3-4.5L1.8 6.2 6.4 6z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg><b data-t="net.consult">AI consultancy</b><small data-t="net.consults">a new site, under development</small></span><i class="tagd" data-t="net.soon">soon</i></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel find" id="find" aria-labelledby="find-h" hidden>
+        <header class="ph"><p class="eb"><span>›</span><b data-t="eb.find">Search</b><i class="fq" id="fq"></i></p><h2 id="find-h"></h2></header>
+        <div class="split wide-left">
+          <div class="viz" id="find-viz"></div>
+          <div class="col">
+            <p class="tx" id="find-d"></p>
+            <a class="open" id="find-open" href="#work"><span id="find-go"></span><kbd aria-hidden="true">↵</kbd></a>
+            <div class="more" id="find-more-box"><h3 data-t="f.more">Matches</h3><ul id="find-more"></ul></div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="status">
+    <p class="sig"><span data-t="sig.code">Code by José Guerra</span><span data-t="sig.built">Built 30 Oct 2026</span></p>
+  </footer>
+
+  <dialog class="detail" id="detail" aria-labelledby="detail-h">
+    <div class="dt">
+      <div class="dt-viz" id="detail-viz"></div>
+      <div class="dt-body">
+        <p class="eb"><span id="detail-n"></span><b id="detail-k"></b></p>
+        <h2 id="detail-h"></h2>
+        <p class="tx" id="detail-d"></p>
+        <div class="dt-more" id="detail-more"></div>
+      </div>
+      <button class="ic dt-x" id="detail-x" type="button" aria-label="Close" data-t-aria="c.close"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M4 4l8 8M12 4l-8 8"/></svg></button>
+    </div>
+  </dialog>
+
+  <svg class="traces" id="traces" aria-hidden="true"></svg>
+  <p class="sr" id="live" aria-live="polite"></p>
+</div>
+</body>
+</html>
